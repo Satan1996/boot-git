@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	@RequestMapping("info")
 	public String info(){
-		return "Hello SpringBoot Info 开发人员";
+		return "Hello SpringBoot Info 123";
 	}
 	//开发人员写了一句话
 }
